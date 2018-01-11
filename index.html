@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>乐淘后台</title>
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" href="lib/bootstrap-validator/css/bootstrapValidator.min.css">
+  <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+<!--侧边栏-->
+<div class="lt_aside">
+  <div class="brand">
+    <a href="index.html">黑马17期</a>
+  </div>
+  <div class="user">
+    <img src="imgs/team4-1-1.jpg" alt="">
+    <p>猪猪猪</p>
+  </div>
+  <div class="nav">
+    <ul>
+      <li>
+        <a href="user.html" class="ow">
+          <span class="glyphicon glyphicon-user"></span>
+          用户管理
+        </a>
+      </li>
+      <li>
+        <a href="javascript:;">
+          <span class="glyphicon glyphicon-list"></span>
+          分类管理
+        </a>
+        <div class="child" style="display: block">
+          <a class="now"  href="first.html">一级分类</a>
+          <a href="second.html">二级分类</a>
+        </div>
+      </li>
+      <li>
+        <a href="product.html">
+          <span class="glyphicon glyphicon-tags"></span>
+          商品管理
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+<!--主体区-->
+<div class="lt_main">
+  <div class="lt_topbar">
+    <a href="javascript:;" class="pull-left lt_topbar">
+      <span class="glyphicon glyphicon-align-justify"></span>
+    </a>
+    <a href="javascript:;" class="pull-right lt_topbar">
+      <span class="glyphicon glyphicon-log-out"></span>
+    </a>
+  </div>
+  <!--导航-->
+  <div class="container-fluid">
+    <ol class="breadcrumb">
+      <a href="#">管理系统</a>
+      <span>\首页</span>
+    </ol>
+    <div class="lt_content">
+      <div class=".lt_content pull-left">
+        <div>
+          <div class="canvas1" id="main">
+          </div>
+          <div class="canvas2" id="main2"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="lib/jquery/jquery.js"></script>
+<script src="lib/bootstrap/js/bootstrap.min.js"></script>
+<script src="lib/bootstrap-validator/js/bootstrapValidator.min.js"></script>
+<script src="lib/echarts/echarts.min.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>
